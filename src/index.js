@@ -68,6 +68,8 @@ onChangeHandler(e) {
           value={this.state.searchInput}
           onChange={this.searchInputChange}
         />
+        
+        /* Kelompok 25 Menggunakan events OnClick untuk mencari data Array pada data_aegis.txt */
         <button onClick={this.onChangeHandler.bind(this)}>Cari</button>
         {error ? <p>{error.message}</p> : null}
         <ol>
