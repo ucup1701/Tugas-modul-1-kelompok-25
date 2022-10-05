@@ -78,7 +78,7 @@ onChangeHandler(e) {
                 const {nama_lengkap, nama_panggilan, nim, nomor_telepon, id_line, tanggal_lahir,hobi,email} = user;
                 return (
                     <ul key={nim}>
-                        <h1>{nama_lengkap}</h1>
+                        <h1 style={{color: "green"}}>{nama_lengkap}</h1>
                         <p>Nama Lengkap <span>:{nama_lengkap?nama_lengkap:"undefined"}</span></p>
                         <p>Nama Panggilan <span>:{nama_panggilan?nama_panggilan:"undefined"}</span></p>
                         <p>NIM<span>:{nim?nim:"undefined"}</span></p>
