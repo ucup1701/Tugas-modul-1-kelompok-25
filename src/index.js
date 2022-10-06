@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 import dataAegis from './data_aegis.txt';
-
+import "./style.css";
 
 /*
   Sorts places by distance from a given location
